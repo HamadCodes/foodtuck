@@ -87,7 +87,7 @@ export default function Home() {
       </div>
 
       <div className="mt-28 max-lg:mt-10">
-        <img src="images/clients.png" alt="" />
+        <img src="images/Clients.png" alt="" />
       </div>
 
       <div className="flex flex-col items-center justify-center gap-5 mt-20 max-lg:mt-5">
