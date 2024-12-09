@@ -10,13 +10,13 @@ export default function blog(){
         </div>
 
         <div className="bg-white py-10 flex justify-center items-start gap-4">
-            <div className="flex flex-col items-center justify-center gap-5">
+            <div className="flex flex-col items-center justify-center gap-5 max-md:px-2">
                 <img src="images/Blogcard_1.png" alt="" />
                 <img src="images/Blogcard_2.png" alt="" />
                 <img src="images/Blogcard_3.png" alt="" />
                 <img src="images/Blogcard_4.png" alt="" />
             </div>
-            <div>
+            <div className="max-md:hidden">
                 <img src="images/Blogsidebar.png" alt="" />
             </div>
         </div>
