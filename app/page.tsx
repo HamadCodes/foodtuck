@@ -13,7 +13,7 @@ export default function Home() {
                 <span className="text-[#FF9F0D]">Food</span>tuck
               </h1>
             </div>
-            <div className="flex flex-col md:flex-row items-center justify-around p-4">
+            <div className="flex flex-row items-center justify-around p-4 max-lg:flex-col gap-4">
               <div className="flex flex-wrap justify-center items-center gap-5 text-center">
                 <div className="relative flex flex-col items-center">
                   <p>Home</p>
@@ -41,14 +41,14 @@ export default function Home() {
                 <Link href="/signup"> <img src="images/login.png" className="w-6 h-6" alt="" /> </Link>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-5 mt-5 pb-5">
+            <div className="flex flex-row justify-center items-center gap-5 mt-5 pb-5 max-lg:flex-col">
               <div className="flex items-center justify-center gap-4">
               <div>
                 <img src="images/herosocials.png" className="h-30 md:h-10 hidden" alt="" />
               </div>
               <div className="text-center md:text-left">
                 <img src="images/herotext.png" className="h-24 md:h-48 mb-4" alt="" />
-                <button className="px-6 py-2 rounded-3xl bg-[#FF9F0D] max-sm:mr-5">
+                <button className="px-6 py-2 rounded-3xl bg-[#FF9F0D] max-lg:mr-5">
                   See More
                 </button>
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
         </header>
       </div>
 
-      <div className="flex items-center justify-center mt-20 pb-5 gap-4 max-sm:flex-col max-sm:px-5">
+      <div className="flex items-center justify-center mt-20 pb-5 gap-4 max-lg:flex-col max-lg:px-5">
         <div>
         <img src="images/aboutustext.png" alt="" />
         <button className="px-6 py-2 mt-5 rounded-3xl bg-[#FF9F0D]">See More</button>
@@ -70,10 +70,10 @@ export default function Home() {
       </div>
 
       <div className="mt-20">
-        <div className="flex items-center justify-center mb-10 max-sm:px-5">
+        <div className="flex items-center justify-center mb-10 max-lg:px-5">
           <img src="images/foodcategory.png" alt="" />
           </div>
-        <div className="flex items-center justify-center gap-8 max-sm:flex-col max-sm:px-5">
+        <div className="flex items-center justify-center gap-8 max-lg:flex-col max-lg:px-5">
           <img src="images/foodcategory1.png" alt="" />
           <img src="images/foodcategory2.png" alt="" />
           <img src="images/foodcategory3.png" alt="" />
@@ -81,18 +81,18 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center gap-10 mt-32 max-sm:flex-col max-sm:px-5">
+      <div className="flex justify-center items-center gap-10 mt-32 max-lg:flex-col max-lg:px-5">
         <img src="images/whychooseusimages.png" alt="" />
         <img src="images/whychooseustext.png" alt="" />
       </div>
 
-      <div className="mt-28 max-sm:mt-10">
+      <div className="mt-28 max-lg:mt-10">
         <img src="images/clients.png" alt="" />
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-5 mt-20 max-sm:mt-5">
-        <img className="max-sm:px-5" src="images/chooseandpick.png" alt="" />
-        <div className="flex justify-center items-center gap-20 font-bold max-sm:flex-col max-sm:px-5 max-sm:gap-5 max-sm:hidden">
+      <div className="flex flex-col items-center justify-center gap-5 mt-20 max-lg:mt-5">
+        <img className="max-lg:px-5" src="images/chooseandpick.png" alt="" />
+        <div className="flex justify-center items-center gap-20 font-bold max-lg:flex-col max-lg:px-5 max-lg:gap-5 max-lg:hidden">
           <button>Breakfast</button>
           <button>Lunch</button>
           <button>Dinner</button>
@@ -101,8 +101,8 @@ export default function Home() {
           <button>Snack</button>
           <button>Suops</button>
         </div>
-        <div className="flex justify-center items-center gap-8 max-sm:flex-col max-sm:px-5">
-          <img className="max-sm:hidden max-sm:px-5" src="images/menuitemimage.png" alt="" />
+        <div className="flex justify-center items-center gap-8 max-lg:flex-col max-lg:px-5">
+          <img className="max-lg:hidden max-lg:px-5" src="images/menuitemimage.png" alt="" />
           <div className="flex flex-col gap-5">
             <img src="images/LettuceLeaf.png" alt="" />
             <img src="images/FreshBreakfast.png" alt="" />
@@ -118,9 +118,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 mt-20 justify-center items-center max-sm:px-5">
+      <div className="flex flex-col gap-4 mt-20 justify-center items-center max-lg:px-5">
         <img src="images/meetourchef.png" alt="" />
-        <div className="flex items-center justify-center gap-4 max-sm:flex-col">
+        <div className="flex items-center justify-center gap-4 max-lg:flex-col">
           <img src="images/Chef1.png" alt="" />
           <img src="images/Chef2.png" alt="" />
           <img src="images/Chef3.png" alt="" />
@@ -146,9 +146,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center mt-20 max-sm:px-5">
+      <div className="flex flex-col items-center justify-center mt-20 max-lg:px-5">
         <img src="images/Blogpost.png" alt="" />
-        <div className="flex items-center justify-center gap-6 mt-10 max-sm:flex-col">
+        <div className="flex items-center justify-center gap-6 mt-10 max-lg:flex-col">
           <img src="images/Blogcard1.png" alt="" />
           <img src="images/Blogcard2.png" alt="" />
           <img src="images/Blogcard3.png" alt="" />
@@ -157,7 +157,7 @@ export default function Home() {
 
       <Footer />
 
-      <img className="absolute bottom-0 right-0 w-44 max-sm:w-24" src="images/footergrass.png" alt="" />
+      <img className="absolute bottom-0 right-0 w-44 max-lg:w-24" src="images/footergrass.png" alt="" />
   </div>
     </>
   );

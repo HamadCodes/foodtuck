@@ -6,12 +6,12 @@ export default function menu(){
         <>
         <Header />
         <div>
-            <img className="max-sm:pt-36" src="images/ourmenu.png" alt="" />
+            <img className="max-lg:pt-36" src="images/ourmenu.png" alt="" />
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5 mt-20 max-sm:mt-5">
-        <img className="max-sm:px-5" src="images/chooseandpick.png" alt="" />
-        <div className="flex justify-center items-center gap-20 font-bold max-sm:flex-col max-sm:px-5 max-sm:gap-5 max-sm:hidden">
+        <div className="flex flex-col items-center justify-center gap-5 mt-20 max-lg:mt-5">
+        <img className="max-lg:px-5" src="images/chooseandpick.png" alt="" />
+        <div className="flex justify-center items-center gap-20 font-bold max-lg:flex-col max-lg:px-5 max-lg:gap-5 max-lg:hidden">
           <button>Breakfast</button>
           <button>Lunch</button>
           <button>Dinner</button>
@@ -20,8 +20,8 @@ export default function menu(){
           <button>Snack</button>
           <button>Suops</button>
         </div>
-        <div className="flex justify-center items-center gap-8 max-sm:flex-col max-sm:px-5">
-          <img className="max-sm:hidden max-sm:px-5" src="images/menuitemimage.png" alt="" />
+        <div className="flex justify-center items-center gap-8 max-lg:flex-col max-lg:px-5">
+          <img className="max-lg:hidden max-lg:px-5" src="images/menuitemimage.png" alt="" />
           <div className="flex flex-col gap-5">
             <img src="images/LettuceLeaf.png" alt="" />
             <img src="images/FreshBreakfast.png" alt="" />

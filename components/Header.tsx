@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header(){
     return(
-        <div className="w-full bg-[#0D0D0D] h-16 text-white flex items-center justify-around absolute max-sm:flex-col max-sm:h-auto max-sm:justify-center max-sm:gap-5 max-sm:py-5">
+        <div className="w-full bg-[#0D0D0D] h-16 text-white flex items-center justify-around absolute max-lg:flex-col max-lg:h-auto max-lg:justify-center max-lg:gap-5 max-lg:py-5">
             <Link href="/home"><div><span className="text-[#FF9F0D] font-bold">Food</span>tuck</div></Link>
             <div className='flex items-center justify-center gap-4'>
                 <Link href="/menu">Menu</Link>
