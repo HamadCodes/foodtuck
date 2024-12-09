@@ -71,13 +71,13 @@ export default function Home() {
 
       <div className="mt-20">
         <div className="flex items-center justify-center mb-10 max-lg:px-5">
-          <img src="images/foodcategory.png" alt="" />
+          <img src="images/Foodcategory.png" alt="" />
           </div>
         <div className="flex items-center justify-center gap-8 max-lg:flex-col max-lg:px-5">
-          <img src="images/foodcategory1.png" alt="" />
-          <img src="images/foodcategory2.png" alt="" />
-          <img src="images/foodcategory3.png" alt="" />
-          <img src="images/foodcategory4.png" alt="" />
+          <img src="images/Foodcategory1.png" alt="" />
+          <img src="images/Foodcategory2.png" alt="" />
+          <img src="images/Foodcategory3.png" alt="" />
+          <img src="images/Foodcategory4.png" alt="" />
         </div>
       </div>
 
