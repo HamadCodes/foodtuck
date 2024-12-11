@@ -10,7 +10,7 @@ export default function signup(){
         </div>
 
         <div className="flex items-center justify-center bg-white">
-            <img src="images/signup.png" alt="" />
+            <img src="images/Signup.png" alt="" />
         </div>
         <Footer />
         </>
