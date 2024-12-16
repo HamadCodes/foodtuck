@@ -9,33 +9,32 @@ export default function menu(){
             <img className="max-lg:pt-36" src="images/ourmenu.png" alt="" />
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5 mt-20 max-lg:mt-5">
-        <img className="max-lg:px-5" src="images/chooseandpick.png" alt="" />
-        <div className="flex justify-center items-center gap-20 font-bold max-lg:flex-col max-lg:px-5 max-lg:gap-5 max-lg:hidden">
-          <button>Breakfast</button>
-          <button>Lunch</button>
-          <button>Dinner</button>
-          <button>Dessert</button>
-          <button>Drink</button>
-          <button>Snack</button>
-          <button>Suops</button>
+      <div className="bg-white flex flex-col justify-center items-center gap-24 py-32 max-lg:px-8 max-lg:py-8 max-lg:gap-12">
+
+        <div className="flex items-center justify-center gap-10 max-lg:flex-col">
+          <img src="images/ourmenupic1.png" alt="" />
+          <img src="images/ourmenutext1.png" alt="" />
         </div>
-        <div className="flex justify-center items-center gap-8 max-lg:flex-col max-lg:px-5">
-          <img className="max-lg:hidden max-lg:px-5" src="images/menuitemimage.png" alt="" />
-          <div className="flex flex-col gap-5">
-            <img src="images/LettuceLeaf.png" alt="" />
-            <img src="images/FreshBreakfast.png" alt="" />
-            <img src="images/MildButter.png" alt="" />
-            <img src="images/MildButter.png" alt="" />
-          </div>
-          <div className="flex flex-col gap-5">
-            <img src="images/GlowCheese.png" alt="" />
-            <img src="images/ItalianPizza.png" alt="" />
-            <img src="images/SliceBeef.png" alt="" />
-            <img src="images/MashroomPizza.png" alt="" />
-          </div>
+
+        <div className="flex items-center justify-center gap-10 max-lg:flex-col">
+          <img src="images/ourmenutext2.png" alt="" />
+          <img src="images/ourmenupic2.png" alt="" />
         </div>
+
+        <img src="images/ourmenucustomers.png" alt="" />
+
+        <div className="flex items-center justify-center gap-10 max-lg:flex-col">
+          <img src="images/ourmenupic3.png" alt="" />
+          <img src="images/ourmenutext3.png" alt="" />
+        </div>
+
+        <div className="flex items-center justify-center gap-10 max-lg:flex-col">
+          <img src="images/ourmenutext4.png" alt="" />
+          <img src="images/ourmenupic4.png" alt="" />
+        </div>
+
       </div>
+
         <Footer />
         </>
     )
